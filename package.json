@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-rosetta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FIS parser for rosetta",
   "main": "index.js",
   "scripts": {

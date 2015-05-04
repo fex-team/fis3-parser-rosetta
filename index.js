@@ -5,7 +5,7 @@ module.exports = function(content, file, opt) {
   try {
     content = transform(content, file, opt);
   } catch (e) {
-    fis.log.warn(e.message);
+    fis.log.warn(e.message + 'while parsing `%s`.', file.subpath);
     fis.log.debug(e.stack);
   }
 
