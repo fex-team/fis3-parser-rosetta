@@ -11,3 +11,7 @@ module.exports = function(content, file, opt) {
 
   return content;
 };
+
+module.exports.defaultOptions = {
+  compileUseage: false
+};
