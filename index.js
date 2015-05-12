@@ -13,5 +13,5 @@ module.exports = function(content, file, opt) {
 };
 
 module.exports.defaultOptions = {
-  compileUseage: false
+  compileUsage: false
 };
