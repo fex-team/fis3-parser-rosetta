@@ -3,6 +3,11 @@ Rosetta Parser tools
 
 For more information, please visit [here](https://github.com/jiexuangao/rosetta/wiki).
 
+此插件做两种工作。
+
+1. 面向 custom element 定义文件，将其解析成满足 rosetta 运行时的 js 文件。
+2. 面向 custom element 使用的文件。分析其依赖，并给调用处自动添加 className.(`r-element r-invisible`)
+
 ## 安装
 
 支持全局安装和局部安装，根据自己的需求来定。
