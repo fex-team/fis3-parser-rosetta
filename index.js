@@ -13,5 +13,6 @@ module.exports = function(content, file, opt) {
 };
 
 module.exports.defaultOptions = {
-  compileUsage: false
+  compileUsage: false,
+  isNative: false
 };
